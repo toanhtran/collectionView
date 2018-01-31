@@ -12,6 +12,7 @@
 		4B7CD2B920202894007814A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7CD2B720202894007814A9 /* Main.storyboard */; };
 		4B7CD2BB20202894007814A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B7CD2BA20202894007814A9 /* Assets.xcassets */; };
 		4B7CD2BE20202894007814A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7CD2BC20202894007814A9 /* LaunchScreen.storyboard */; };
+		4B7CD2C62021752C007814A9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7CD2C52021752C007814A9 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4B7CD2BA20202894007814A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B7CD2BD20202894007814A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B7CD2BF20202894007814A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B7CD2C52021752C007814A9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		4B7CD2A720202894007814A9 = {
 			isa = PBXGroup;
 			children = (
+				4B7CD2C52021752C007814A9 /* DetailViewController.swift */,
 				4B7CD2B220202894007814A9 /* CollectionView */,
 				4B7CD2B120202894007814A9 /* Products */,
 			);
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B7CD2C62021752C007814A9 /* DetailViewController.swift in Sources */,
 				4B7CD2B620202894007814A9 /* ViewController.swift in Sources */,
 				4B7CD2B420202894007814A9 /* AppDelegate.swift in Sources */,
 			);
